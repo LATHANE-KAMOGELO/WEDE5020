@@ -1,0 +1,267 @@
+<html>
+<head>
+    <title>Lathane IT</title>
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #000;
+        }
+
+        .header {
+            background-color: #ffffff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header img {
+            width: 100px;
+            height: auto;
+        }
+
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .nav-buttons a {
+            padding: 8px 15px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #FF6700;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+
+        .nav-buttons a:hover {
+            background-color: #ffffff;
+            color: #FF6700;
+            border: 1px solid #FF6700;
+        }
+
+        .centered-text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px 0;
+        }
+
+        .centered-text::before,
+        .centered-text::after {
+            content: "";
+            flex: 1;
+            border-bottom: 2px solid #333;
+            margin: 0 20px;
+        }
+
+        .centered-text span {
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+
+        .content {
+            padding: 0px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 24pt;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .section-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        
+        .form-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        form {
+            width: 100%;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea,
+        select {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+            margin-bottom: 15px;
+            background-color: #f9f9f9;
+        }
+
+        textarea {
+            resize: none;
+            height: 100px;
+        }
+
+        input[type="submit"] {
+            background-color: #FF6700;
+            border: none;
+            color: #fff;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #e65c00;
+        }
+
+        .error-message {
+            color: red;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        .footer {
+            background-color: #FF6700;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .image-section img {
+            width: 150px;
+            height: auto;
+            margin-top: 20px;
+        }
+        .gradient-box {
+            width: 17000px;
+            height: 30px;
+            background-color: #FF6700;
+            background: linear-gradient(to right, #FF6700,#FF6700);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="img/logo 2.jfif" alt="LATHANE IT Logo">
+        <div class="nav-buttons">
+            <a href="index.html" class="homepage">Home</a>
+            <a href="services.html" class="service">Services</a>
+            <a href="news.html" class="news">News</a>
+            <a href="contact us.html" class="contact">Contact</a>
+            <a href="about us.html" class="about">About Us</a>
+        </div>
+    </div>
+
+    <div class="centered-text">
+        <span>We Always Get IT Done</span>
+    </div>
+
+    <div class="content">
+        <h2>CONTACT</h2>
+        <p>We are always just a phone call or email away to offering you the best service in the country.</p>
+
+        
+
+        <div class="contact-info">
+            <div class="section">
+
+                <div class="section-title">PHYSICAL ADDRESS</div>
+                <img src="img/location 2 (1).jpeg" alt="Location">
+                <p>Limpopo</p>
+                <p>877 Mesopotamia, Ga-kgapane, Limpopo, 0838</p>
+                <p>Gauteng</p>
+                <p>32 Stonewall, Profil Street, Northgate</p>
+
+                <div class="section-title">OUR PHONES</div>
+                <img src="img/call.jpeg" alt="Phone">
+                <p>+27 60 342 1640</p>
+                <p>+27 66 346 2994</p>
+
+                <div class="section-title">SUPPORT EMAIL</div>
+                <p><img src="img/mail 2.jpeg" alt="Mail"></p>
+                <p>sales@lathaneit.co.za</p>
+            </div>
+        </div>
+    </div>
+
+    <p><div class="gradient-box"></div></p>
+    
+    <div class="form-container">
+        <form id="contactForm">
+            <label for="fname">FIRST NAME</label>
+            <input type="text" id="fname" name="fname" placeholder="FIRST NAME">
+
+            <label for="lname">LAST NAME</label>
+            <input type="text" id="lname" name="lname" placeholder="LAST NAME">
+
+            <label for="cell">CELL NUMBER</label>
+            <input type="tel" id="cell" name="cell" placeholder="CELL NUMBER">
+
+            <label for="email">EMAIL</label>
+            <input type="email" id="email" name="email" placeholder="EMAIL">
+
+            <label for="province">CHOOSE PROVINCE</label>
+            <select name="province" id="province">
+                <option value="">Select</option>
+                <option value="Eastern Cape">Eastern Cape</option>
+                <option value="Free State">Free State</option>
+                <option value="Gauteng">Gauteng</option>
+                <option value="KwaZulu-Natal">KwaZulu-Natal</option>
+                <option value="Limpopo">Limpopo</option>
+                <option value="North West">North West</option>
+                <option value="Mpumalanga">Mpumalanga</option>
+            </select>
+
+            <label for="message">MESSAGE</label>
+            <textarea id="message" name="message" placeholder="Enter your message"></textarea>
+           <a><p><h5>Team 1: Web Development Team</p>
+            <p>Team Name: The Code Crafters</p>
+            Description: The Web Development Team at LATHANE IT is responsible for creating, developing, and maintaining websites and web applications. They ensure that all web platforms are responsive, user-friendly, and optimized for performance.
+            <p>Key Members:</p>
+            <p>John Doe (Lead Developer): A full-stack developer with over 10 years of experience in building high-performance websites.</p>
+            <p>Jane Smith (Frontend Specialist): An expert in UI/UX design and frontend technologies like HTML, CSS, and JavaScript.</p>
+            Alex Johnson (Backend Developer): Specializes in backend technologies like PHP, Python, and databases.</h5></p></a>
+            <p><label class="checkbox-label"><input type="checkbox" name="agree_terms"> I AGREE TO THE TERMS</label></p>
+            <p><label class="checkbox-label"><input type="checkbox" name="agree_marketing"> I AGREE TO BE CONTACTED FOR MARKETING PURPOSES</label></p>
+
+            <input type="submit" value="Submit">
+        </form>
+        
+    </div>
+    <p><div class="gradient-box"></div></p>
+
+    <div class="footer">
+        <h4>&copy; 2024 LATHANE IT. All rights reserved.</h4>
+    </div>
+</body>
+</html>

@@ -1,0 +1,204 @@
+<html>
+<head>
+    <title>News - Lathane IT</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333;
+        }
+
+        .header {
+            background-color: #ffffff;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header img {
+            width: 100px;
+            height: auto;
+        }
+
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .nav-buttons a {
+            padding: 8px 15px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #FF6700;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+
+        .nav-buttons a:hover {
+            background-color: #ffffff;
+            color: #FF6700;
+            border: 1px solid #FF6700;
+        }
+
+        .centered-text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px 0;
+        }
+
+        .centered-text::before,
+        .centered-text::after {
+            content: "";
+            flex: 1;
+            border-bottom: 2px solid #333;
+            margin: 0 20px;
+        }
+
+        .centered-text span {
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .header, .footer {
+            background-color: #ffffff;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        .header h1 {
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .main-content {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-content h2 {
+            color: #333;
+        }
+
+        .main-content p {
+            margin: 10px 0;
+        }
+
+        .news-item {
+            margin-bottom: 20px;
+        }
+
+        .news-item h3 {
+            margin: 0;
+            color: #333;
+        }
+
+        .news-item p {
+            margin: 5px 0;
+        }
+
+        .news-date {
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #FF6700;
+            border-radius: 5px;
+            font-size: 1em;
+            margin-top: 20px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #ffffff;
+            color: #FF6700;
+            border: 1px solid #FF6700;
+        }
+
+        .footer {
+            background-color: #FF6700;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="img/logo 2.jfif" alt="LATHANE IT Logo">
+        <div class="nav-buttons">
+            <a href="index.html" class="homepage">Home</a>
+            <a href="services.html" class="service">Services</a>
+            <a href="news.html" class="news">News</a>
+            <a href="contact us.html" class="contact">Contact</a>
+            <a href="about us.html" class="about">About Us</a>
+        </div>
+    </div>
+
+    <div class="centered-text">
+        <span>We Always Get IT Done</span>
+    </div>
+
+    <div class="container">
+        <div class="main-content">
+            <h2>Latest News</h2>
+
+            <div class="news-item">
+                <h3>New Office Opening in Innovate City</h3>
+                <p class="news-date">July 15, 2024</p>
+                <p>We are excited to announce the opening of our new office in Innovate City. This expansion will help us better serve our clients in the region and foster innovation within our team.</p>
+            </div>
+
+            <div class="news-item">
+                <h3>Lathane IT Wins Industry Excellence Award</h3>
+                <p class="news-date">June 20, 2024</p>
+                <p>We are honored to receive the Industry Excellence Award for our outstanding contributions to the IT sector. This recognition is a testament to our team's hard work and dedication.</p>
+            </div>
+
+            <div class="news-item">
+                <h3>Upcoming Webinar on Cybersecurity Trends</h3>
+                <p class="news-date">May 30, 2024</p>
+                <p>Join us for an insightful webinar on the latest trends in cybersecurity. Our experts will discuss emerging threats and how businesses can protect themselves in the digital age. Register now to secure your spot!</p>
+            </div>
+
+            <div class="news-item">
+                <h3>Partnership with Tech Innovators Inc.</h3>
+                <p class="news-date">April 15, 2024</p>
+                <p>We are thrilled to announce our strategic partnership with Tech Innovators Inc. This collaboration will enable us to offer enhanced solutions and services to our clients, leveraging the latest in technology advancements.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h4>&copy; 2024 LATHANE IT. All rights reserved.</h4>
+    </div>
+</body>
+</html>
